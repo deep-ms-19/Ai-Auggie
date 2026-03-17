@@ -1,0 +1,2 @@
+AUGMENT_API_TOKEN="484ce1193cad1e601a9e50b73f138b3755e5ab1d3019159b7c7b5e381b91a46a"
+AUGMENT_API_URL="https://d6.api.augmentcode.com/"
