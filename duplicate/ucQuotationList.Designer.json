@@ -1,0 +1,173 @@
+{
+  "listTitle": "Quotation List",
+  "apiUrl": "/api/quotations",
+  "actions": [
+    {
+      "text": "Add New",
+      "apiUrl": "/api/quotations",
+      "method": "POST",
+      "autoFetch": false
+    },
+    {
+      "text": "Edit",
+      "apiUrl": "/api/quotations",
+      "method": "PUT",
+      "autoFetch": false
+    },
+    {
+      "text": "Refresh",
+      "apiUrl": "/api/quotations",
+      "method": "GET",
+      "autoFetch": true
+    },
+    {
+      "text": "Export To Excel",
+      "apiUrl": "/api/quotations/export",
+      "method": "GET",
+      "autoFetch": false
+    },
+    {
+      "text": "Print",
+      "apiUrl": "/api/quotations/print",
+      "method": "GET",
+      "autoFetch": false
+    },
+    {
+      "text": "History",
+      "apiUrl": "/api/quotations/history",
+      "method": "GET",
+      "autoFetch": false
+    },
+    {
+      "text": "Logikal Import",
+      "apiUrl": "/api/quotations/logikal-import",
+      "method": "POST",
+      "autoFetch": false
+    },
+    {
+      "text": "Re-Import",
+      "apiUrl": "/api/quotations/re-import",
+      "method": "POST",
+      "autoFetch": false
+    }
+  ],
+  "filters": [
+    {
+      "name": "txtQuoteNo",
+      "label": "Quotation No",
+      "type": "text",
+      "placeholder": "Enter quotation number"
+    },
+    {
+      "name": "cmbQuotationStatus",
+      "label": "Status",
+      "type": "select",
+      "options": [],
+      "labelKey": "DisplayText",
+      "valueKey": "ID"
+    },
+    {
+      "name": "dtpFrom",
+      "label": "Date From",
+      "type": "date",
+      "format": "dd-MMM-yyyy"
+    },
+    {
+      "name": "dtpTo",
+      "label": "To",
+      "type": "date",
+      "format": "dd-MMM-yyyy"
+    },
+    {
+      "name": "chkWaitingForApproval",
+      "label": "Waiting For Approval",
+      "type": "checkbox"
+    },
+    {
+      "name": "BarCompBranch",
+      "label": "Branch",
+      "type": "select",
+      "options": [],
+      "labelKey": "DisplayText",
+      "valueKey": "ID"
+    }
+  ],
+  "tableProps": {
+    "tableName": "Quotations",
+    "tableId": "quotation-list-table",
+    "columnDefs": [
+      {
+        "field": "select",
+        "headerName": "",
+        "checkboxSelection": true,
+        "headerCheckboxSelection": false,
+        "width": 50,
+        "pinned": "left"
+      },
+      {
+        "field": "id",
+        "headerName": "ID",
+        "width": 80,
+        "hide": true
+      },
+      {
+        "field": "quotationNo",
+        "headerName": "Quotation No",
+        "width": 150,
+        "pinned": "left"
+      },
+      {
+        "field": "quotationDate",
+        "headerName": "Quotation Date",
+        "width": 130,
+        "type": "date"
+      },
+      {
+        "field": "customerName",
+        "headerName": "Customer Name",
+        "width": 200
+      },
+      {
+        "field": "status",
+        "headerName": "Status",
+        "width": 120
+      },
+      {
+        "field": "branch",
+        "headerName": "Branch",
+        "width": 150
+      },
+      {
+        "field": "totalAmount",
+        "headerName": "Total Amount",
+        "width": 130,
+        "type": "number"
+      },
+      {
+        "field": "createdBy",
+        "headerName": "Created By",
+        "width": 130
+      },
+      {
+        "field": "createdDate",
+        "headerName": "Created Date",
+        "width": 130,
+        "type": "date"
+      },
+      {
+        "field": "modifiedBy",
+        "headerName": "Modified By",
+        "width": 130
+      },
+      {
+        "field": "modifiedDate",
+        "headerName": "Modified Date",
+        "width": 130,
+        "type": "date"
+      }
+    ]
+  },
+  "hasSearch": true,
+  "hasCreateButton": true,
+  "rowSelection": "single"
+}

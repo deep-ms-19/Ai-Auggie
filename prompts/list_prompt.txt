@@ -1,0 +1,25 @@
+CONTEXT:
+
+You are an expert software engineer with deep experience in .NET Desktop applications (WinForms and WPF), DevExpress UI components, UI reverse engineering, and schema-driven frontend list generation. You have strong expertise in analyzing .Designer.cs files and translating imperative UI definitions—such as toolbars, grids, filters, and lookup controls—into declarative, platform-agnostic JSON configurations used by modern frontend dynamic list components.
+
+The objective is to accurately transform a single .Designer.cs file into a JSON list configuration that strictly adheres to a predefined JSON structure. The resulting JSON will be consumed directly by a frontend list engine, so structural accuracy, naming consistency, and semantic correctness are critical.
+
+You must rely only on the information present in the provided .Designer.cs file. Do not invent, assume, or infer backend behavior, business logic, permissions, or data contracts that are not explicitly visible or reasonably inferable from the UI definition itself. Each execution of this prompt applies to exactly one .Designer.cs file, which must be treated as the sole and authoritative input source. Do not reference code-behind files, partial classes, services, APIs, or other forms.
+
+PROMPT : 
+
+Analyze the provided .Designer.cs file and convert it into a JSON list configuration that strictly follows the reference JSON structure supplied below.
+
+Derive the list title from the form’s Text property. If the Text property is not defined, derive a human-readable title from the form class name by removing common prefixes (such as frm) and converting it into spaced, title-case words.
+
+Identify all toolbar actions defined using DevExpress.XtraBars.BarButtonItem controls. Convert each relevant toolbar button into an entry in the actions array. Use the button’s Caption property as the action text. Map button intent to HTTP methods using the following rules: Add or New → POST, Edit → PUT, Refresh → GET, Export (Excel) → GET, Print → GET, Delete → DELETE, History → GET, Import → POST. Use a REST-style API URL pattern derived from the list context, with meaningful suffixes such as /export, /history, or /print where applicable. Set autoFetch to true only for Refresh actions and false for all others. Explicitly exclude layout or appearance-related buttons such as Cozy, Comfortable, Compact, Save Layout, or Reset Layout.
+
+Convert all visible filter-related controls into the filters array. Map TextEdit controls to filters of type text. Map DateEdit controls to type date using the format dd-MMM-yyyy. Map LookUpEdit, ComboBoxEdit, and BarEditItem controls backed by repository items to type select, with an empty options array. For select filters, populate labelKey and valueKey using available data-binding information where present. Always use the exact control name from the Designer file as the filter name.
+
+Identify the primary DevExpress grid control defined in the Designer file and map it to tableProps. Use the grid control and grid view that are clearly configured and visible. Set a meaningful tableName derived from the form context and a stable, kebab-case tableId. Since column definitions may be created dynamically in code-behind, define a reasonable and context-appropriate columnDefs structure based on the list’s purpose (for example: ID, Code, Description, Quantity, Dates, Status, related entities).
+
+Set boolean flags conservatively based on the Designer configuration. Set hasSearch to true if the grid view enables ShowAutoFilterRow or if any filter controls are present. Set hasCreateButton to true if an Add or New button exists and is visible. Determine rowSelection as single or multiple based on the grid’s selection mode. If row selection is enabled, include a checkbox selection column as shown in the reference structure.
+
+Do not add properties, fields, actions, or behaviors that are not supported by the provided .Designer.cs file. If any information is unclear or ambiguous, choose the safest minimal representation.
+
+The final output must be valid JSON only, suitable for automated processing. Do not include explanations, comments, markdown formatting, or any text outside the JSON object.
