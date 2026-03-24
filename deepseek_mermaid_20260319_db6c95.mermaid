@@ -1,0 +1,29 @@
+graph TD
+    A[User] -->|Uploads User Story| B(FastAPI Endpoint<br/>/generate)
+
+    subgraph "API Server"
+        B --> C[Embed User Story<br/>using Sentence Transformer]
+        C --> D[Query Qdrant<br/>for similar code chunks]
+        D --> E[Build Prompt<br/>with context + story]
+        E --> F[Call OpenAI API]
+        F --> G[Parse Generated Code<br/>into file list]
+        G --> H[Create ZIP archive<br/>in memory]
+    end
+
+    subgraph "Vector Database"
+        I[(Qdrant Collection<br/>codebase_index)]
+        D --> I
+    end
+
+    subgraph "Embedding Model"
+        J[BAAI/bge-base-en-v1.5]
+        C --> J
+    end
+
+    subgraph "LLM"
+        K[OpenAI GPT-4 / GPT-3.5]
+        F --> K
+    end
+
+    H --> L[Return ZIP file<br/>to User]
+    L --> A
