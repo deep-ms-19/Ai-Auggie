@@ -9,3 +9,5 @@ project/
 ├── list-json/
 ├── forms-json/
 └── convert_bulk.py
+
+https://docs.google.com/document/d/1Ko3J3xvM6WN1WqpHhcYk9X5EzmgwfSd3ai4hNdM4FvQ/edit?usp=sharing 
