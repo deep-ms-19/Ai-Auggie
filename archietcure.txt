@@ -10,6 +10,9 @@ project/
 ├── forms-json/
 └── convert_bulk.py
 
+------------------------------------------------------------------------------------------------
 https://docs.google.com/document/d/1Ko3J3xvM6WN1WqpHhcYk9X5EzmgwfSd3ai4hNdM4FvQ/edit?usp=sharing 
 https://www.msn.com/en-in/money/news/4-biggest-voices-who-helped-shape-artificial-intelligence-technology/ar-AA203wJk?ocid=entnewsntp&pc=U531&cvid=a626d4547ab04edba5610410dc7bed97&ei=49 
 https://chat.deepseek.com/share/2751skx5lrt1aq0gmd 
+
+https://github.com/SamBelkacem/AI-ML-cheatsheets 
