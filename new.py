@@ -7,3 +7,5 @@ https://www.msn.com/en-in/news/other/here-s-how-many-pushups-should-you-be-able-
 tech-
 https://www.msn.com/en-in/lifestyle/shopping/muse-spark-vs-claude-vs-chatgpt-features-performance-key-differences-explained/ar-AA20t5Sn?ocid=entnewsntp&pc=U531&cvid=69d747a944c741cda9f082388574a332&ei=33 
 
+https://www.msn.com/en-in/money/news/meta-shuts-down-internal-claudeonomics-ai-tool-after-employees-started-leaking-data-to-public/ar-AA20tzwg?ocid=entnewsntp&pc=U531&cvid=69d747a944c741cda9f082388574a332&cvpid=0bf67f48dba74b77c4bf9d1877d10b44&ei=24 
+
