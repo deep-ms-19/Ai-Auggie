@@ -1,7 +1,9 @@
-https://www.youtube.com/watch?v=BRYr2fnRl68 
-Meta Drops New Model, Mythos, RoboLamp
+https://www.msn.com/en-in/money/news/meta-unveils-first-ai-model-from-superintelligence-team/ar-AA20reD9?ocid=entnewsntp&pc=U531&cvid=69d6689786404599962eeccd1046e5f5&cvpid=69d7474bd3284137942ead2f0e0fde7b&ei=39 
 
-https://artificialanalysis.ai/articles/muse-spark-everything-you-need-to-know 
+https://www.msn.com/en-in/money/news/meta-unveils-first-ai-model-from-superintelligence-team/ar-AA20reD9?ocid=entnewsntp&pc=U531&cvid=69d6689786404599962eeccd1046e5f5&cvpid=69d7474bd3284137942ead2f0e0fde7b&ei=39 
 
-https://ai.meta.com/static-resource/muse-spark-eval-methodology 
+https://www.msn.com/en-in/news/other/here-s-how-many-pushups-should-you-be-able-to-do-based-on-your-age-and-gender/ar-AA1J4Ff8?ocid=entnewsntp&pc=U531&cvid=69d6689786404599962eeccd1046e5f5&ei=62 
+
+tech-
+https://www.msn.com/en-in/lifestyle/shopping/muse-spark-vs-claude-vs-chatgpt-features-performance-key-differences-explained/ar-AA20t5Sn?ocid=entnewsntp&pc=U531&cvid=69d747a944c741cda9f082388574a332&ei=33 
 
