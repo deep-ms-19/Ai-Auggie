@@ -12,3 +12,21 @@ https://www.msn.com/en-in/money/news/meta-shuts-down-internal-claudeonomics-ai-t
 10-04-2026 Tech - 
 
 https://www.msn.com/en-in/money/news/ai-agents-are-posting-like-real-people/vi-AA1ZijmB?ocid=entnewsntp&pc=U531&cvid=69d8933cb4424c259dd5364acb9e0415&ei=51 
+
+https://www.msn.com/en-in/money/technology/3-science-backed-tricks-to-instantly-become-more-attractive-to-your-crush/vi-AA1XQ5pO?ocid=socialshare 
+
+https://www.msn.com/en-in/lifestyle/relationships/how-to-build-real-self-love-and-confidence/vi-AA1XaTni?ocid=socialshare
+
+https://www.msn.com/en-in/entertainment/southcinema/the-ultimate-test-of-emotional-maturity/vi-AA1XQ5p9?ocid=socialshare 
+
+TabError
+https://www.msn.com/en-in/money/news/gumloop-the-ai-first-automation-platform-transforming-productivity-interview-w-yc-founder/vi-AA1ZP53f?ocid=socialshare 
+https://www.msn.com/en-in/news/India/understanding-academic-drawing-french-vs-american-methods-and-why-ai-advice-misleads-students/vi-AA1Two4a?ocid=socialshare 
+https://www.msn.com/en-in/money/news/ai-agents-are-posting-like-real-people/vi-AA1ZijmB?ocid=socialshare 
+https://www.msn.com/en-in/health/wellness/how-to-approach-women-without-being-creepy-dr-k-advice/vi-AA1XFfZ8?ocid=socialshare 
+
+
+frela
+https://www.msn.com/en-in/money/topstories/ai-agents-as-employees-business-lessons-from-a-billionaire-the-future-of-productivity/vi-AA1ZTwOb?ocid=socialshare 
+https://www.msn.com/en-in/money/news/unlocking-business-success-how-ai-agencies-are-transforming-the-future/vi-AA1ZPnHq?ocid=socialshare
+https://www.msn.com/en-in/money/markets/entrepreneur-coaching-real-business-calls-startup-ideas-hard-lessons/vi-AA1ZQUUW?ocid=socialshare 
