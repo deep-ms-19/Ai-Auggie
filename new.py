@@ -9,3 +9,6 @@ https://www.msn.com/en-in/lifestyle/shopping/muse-spark-vs-claude-vs-chatgpt-fea
 
 https://www.msn.com/en-in/money/news/meta-shuts-down-internal-claudeonomics-ai-tool-after-employees-started-leaking-data-to-public/ar-AA20tzwg?ocid=entnewsntp&pc=U531&cvid=69d747a944c741cda9f082388574a332&cvpid=0bf67f48dba74b77c4bf9d1877d10b44&ei=24 
 
+10-04-2026 Tech - 
+
+https://www.msn.com/en-in/money/news/ai-agents-are-posting-like-real-people/vi-AA1ZijmB?ocid=entnewsntp&pc=U531&cvid=69d8933cb4424c259dd5364acb9e0415&ei=51 
